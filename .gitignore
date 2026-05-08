@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Stray evaluation outputs (root level)
+/evaluation_report.json
+/summary.json
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+!env/__init__.py
+!env/agriculture_env.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Eski karsilastirma deneyleri (episode bazli)
+results_comparative/exp_500ep/
+results_comparative/exp_1000ep/
+results_comparative/exp_2500ep/
+results_comparative/exp_5000ep/
+results_comparative/comparative_training_curves.png
+results_comparative/comparative_boxplot.png
+results_comparative/convergence_comparison.png

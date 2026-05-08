@@ -1,0 +1,47 @@
+{
+  "harvest_efficiency": {
+    "mean": 93.8,
+    "std": 3.32,
+    "median": 95.17,
+    "min": 82.08,
+    "max": 97.77,
+    "ci95_lower": 93.14,
+    "ci95_upper": 94.46,
+    "pct_above_80": 100.0,
+    "pct_above_70": 100.0
+  },
+  "total_reward": {
+    "mean": 32.04,
+    "std": 3.5,
+    "median": 32.57,
+    "min": 19.05,
+    "max": 39.78
+  },
+  "action_distribution": {
+    "Bekle": {
+      "count": 551,
+      "percentage": 18.4
+    },
+    "Hafif Sulama": {
+      "count": 547,
+      "percentage": 18.2
+    },
+    "Yoğun Sulama": {
+      "count": 144,
+      "percentage": 4.8
+    },
+    "Hafif Gübreleme": {
+      "count": 644,
+      "percentage": 21.5
+    },
+    "Yoğun Gübreleme": {
+      "count": 165,
+      "percentage": 5.5
+    },
+    "Sula + Gübrele": {
+      "count": 949,
+      "percentage": 31.6
+    }
+  },
+  "n_episodes": 100
+}

@@ -1,0 +1,161 @@
+{
+  "alpha": {
+    "title": "Ogrenme Orani (α) Karsilastirmasi",
+    "experiments": {
+      "alpha_005": {
+        "label": "α = 0.05",
+        "params": {
+          "alpha": 0.05,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 92.37,
+        "eval_harvest_std": 4.56,
+        "eval_harvest_min": 68.33,
+        "eval_harvest_max": 97.96,
+        "eval_harvest_pct_above_80": 98.0,
+        "eval_reward_mean": 27.47,
+        "unique_states": 3505,
+        "elapsed_seconds": 29.96
+      },
+      "alpha_015": {
+        "label": "α = 0.15 (Varsayilan)",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 92.61,
+        "eval_harvest_std": 4.08,
+        "eval_harvest_min": 80.33,
+        "eval_harvest_max": 97.53,
+        "eval_harvest_pct_above_80": 100.0,
+        "eval_reward_mean": 32.08,
+        "unique_states": 3474,
+        "elapsed_seconds": 30.36
+      },
+      "alpha_030": {
+        "label": "α = 0.30",
+        "params": {
+          "alpha": 0.3,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 95.19,
+        "eval_harvest_std": 2.75,
+        "eval_harvest_min": 86.19,
+        "eval_harvest_max": 97.83,
+        "eval_harvest_pct_above_80": 100.0,
+        "eval_reward_mean": 33.45,
+        "unique_states": 3459,
+        "elapsed_seconds": 30.42
+      }
+    }
+  },
+  "gamma": {
+    "title": "Indirim Faktoru (γ) Karsilastirmasi",
+    "experiments": {
+      "gamma_080": {
+        "label": "γ = 0.80",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.8,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 90.16,
+        "eval_harvest_std": 12.16,
+        "eval_harvest_min": 0.0,
+        "eval_harvest_max": 97.92,
+        "eval_harvest_pct_above_80": 91.0,
+        "eval_reward_mean": 27.91,
+        "unique_states": 3448,
+        "elapsed_seconds": 30.49
+      },
+      "gamma_095": {
+        "label": "γ = 0.95 (Varsayilan)",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 92.61,
+        "eval_harvest_std": 4.08,
+        "eval_harvest_min": 80.33,
+        "eval_harvest_max": 97.53,
+        "eval_harvest_pct_above_80": 100.0,
+        "eval_reward_mean": 32.08,
+        "unique_states": 3474,
+        "elapsed_seconds": 30.34
+      },
+      "gamma_099": {
+        "label": "γ = 0.99",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.99,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 92.47,
+        "eval_harvest_std": 5.64,
+        "eval_harvest_min": 55.01,
+        "eval_harvest_max": 97.38,
+        "eval_harvest_pct_above_80": 97.0,
+        "eval_reward_mean": 30.0,
+        "unique_states": 3461,
+        "elapsed_seconds": 30.9
+      }
+    }
+  },
+  "epsilon": {
+    "title": "Kesif Stratejisi (ε-Decay) Karsilastirmasi",
+    "experiments": {
+      "eps_fast": {
+        "label": "Hizli Decay (ε=0.9950)",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.95,
+          "epsilon_decay": 0.995
+        },
+        "eval_harvest_mean": 90.13,
+        "eval_harvest_std": 9.06,
+        "eval_harvest_min": 28.5,
+        "eval_harvest_max": 97.48,
+        "eval_harvest_pct_above_80": 91.0,
+        "eval_reward_mean": 27.93,
+        "unique_states": 3010,
+        "elapsed_seconds": 30.88
+      },
+      "eps_medium": {
+        "label": "Orta Decay (ε=0.9985)",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9985
+        },
+        "eval_harvest_mean": 92.61,
+        "eval_harvest_std": 4.08,
+        "eval_harvest_min": 80.33,
+        "eval_harvest_max": 97.53,
+        "eval_harvest_pct_above_80": 100.0,
+        "eval_reward_mean": 32.08,
+        "unique_states": 3474,
+        "elapsed_seconds": 30.24
+      },
+      "eps_slow": {
+        "label": "Yavas Decay (ε=0.9997)",
+        "params": {
+          "alpha": 0.15,
+          "gamma": 0.95,
+          "epsilon_decay": 0.9997
+        },
+        "eval_harvest_mean": 91.54,
+        "eval_harvest_std": 7.2,
+        "eval_harvest_min": 51.1,
+        "eval_harvest_max": 96.86,
+        "eval_harvest_pct_above_80": 95.0,
+        "eval_reward_mean": 32.3,
+        "unique_states": 4010,
+        "elapsed_seconds": 28.75
+      }
+    }
+  }
+}

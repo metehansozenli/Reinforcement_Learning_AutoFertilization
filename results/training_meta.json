@@ -1,0 +1,33 @@
+{
+  "n_episodes": 2500,
+  "elapsed_seconds": 30.21,
+  "seed": 42,
+  "hyperparams": {
+    "n_actions": 6,
+    "alpha_start": 0.15,
+    "alpha_current": 0.07085,
+    "alpha_end": 0.05,
+    "alpha_decay": 0.9997,
+    "gamma": 0.95,
+    "epsilon_start": 1.0,
+    "epsilon_current": 0.17367,
+    "epsilon_end": 0.05,
+    "epsilon_decay": 0.9993
+  },
+  "final_epsilon": 0.17366748983356287,
+  "final_alpha": 0.07084701057952629,
+  "unique_states": 3848,
+  "total_updates": 75000,
+  "final_mean_reward_100": 26.2377542355513,
+  "final_mean_harvest_100": 85.548020921866,
+  "final_std_harvest_100": 18.385388591978597,
+  "best_harvest": 98.59329783958874,
+  "reward_weights": {
+    "crop_health_delta": 2.5,
+    "action_cost": 0.4,
+    "toxicity_penalty": 3.5,
+    "ideal_zone_bonus": 1.2,
+    "harvest_bonus_scale": 3.0,
+    "death_penalty": -8.0
+  }
+}
