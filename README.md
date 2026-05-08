@@ -6,9 +6,7 @@
 
 ## Özet
 
-Bu çalışmada, tarımsal üretimde sulama ve gübreleme kararlarını optimize etmek amacıyla **Tabular Q-Learning** tabanlı bir pekiştirmeli öğrenme (Reinforcement Learning — RL) sistemi geliştirilmiştir. Geliştirilen ajan, 30 günlük bir yetiştirme sezonunda günlük kararlar alarak hasat verimliliğini maksimize etmeyi hedeflemektedir. Farklı hiperparametre konfigürasyonlarıyla (öğrenme oranı, indirim faktörü ve keşif stratejisi) karşılaştırmalı deneyler yürütülmüş ve sonuçlar istatistiksel olarak değerlendirilmiştir.
-
-**Anahtar Kelimeler:** Pekiştirmeli Öğrenme, Q-Learning, Akıllı Tarım, Karar Destek Sistemi, Hasat Optimizasyonu
+Bu çalışmada, tarımsal üretimde sulama ve gübreleme kararlarını optimize etmek amacıyla **Q-Learning** tabanlı bir pekiştirmeli öğrenme (Reinforcement Learning) sistemi geliştirilmiştir. Geliştirilen ajan, 30 günlük bir yetiştirme sezonunda günlük kararlar alarak hasat verimliliğini maksimize etmeyi hedeflemektedir. Farklı hiperparametre konfigürasyonlarıyla (öğrenme oranı, indirim faktörü ve keşif stratejisi) karşılaştırmalı deneyler yürütülmüş ve sonuçlar istatistiksel olarak değerlendirilmiştir.
 
 ---
 
